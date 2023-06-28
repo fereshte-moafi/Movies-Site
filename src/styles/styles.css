@@ -1,0 +1,138 @@
+.box {
+    width: 100%
+}
+
+.ull {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkli{
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+
+.box2 {
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px 10px;
+}
+
+.movies-box {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+.movie-box {
+    width: 240px;
+    height: 420px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+}
+
+.movie-img {
+    width: 100%;
+    height: 60%;
+}
+
+.post-box1 {
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.form-control input,
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.box3 {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.box4 {
+    display: flex;
+    direction: rtl;
+}
+
+.navbar {
+    height: 50px;
+    border-radius: 50px;
+    background: #a7304d;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 90% 10%;
+     grid-template-columns: 90% 10%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+
+  .link:hover {
+    background-color: #54add6;
+    padding: 3px 10px;
+    border-radius: 5px;
+  }
+
+  .movie-genre-box{
+    width: 300px;
+    padding: 0;
+    text-align: center;
+  }
+
+
+  
+  .movie-genre-ul{
+    text-align: center;
+    display:inline-block;
+    margin-top:0;
+    margin-bottom:0;
+  }
+
+  .movie-genre{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: rgb(76, 119, 26);
+    color:#000;
+    margin: 0;
+    display:inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    
+  }
+
+  .input-movie{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    display:flex;
+    margin:20px;
+    text-align: center;
+    
+  }
+
